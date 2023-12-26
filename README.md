@@ -1,25 +1,29 @@
 
-# step1
+## step1
+create firebase realtime database
+save key.json -> serviceAccountKey.json
+
+## step2
 ```
 npm install
 node watching.js
 node index.js
 ```
 
-# step2
+## step3
 start testing by restAPI
 
 
-# add message
+### add message
 ```
 curl --location 'http://localhost:7783/message' \
 --header 'Content-Type: application/json' \
 --data '{
-    "data": "123123"
+    "data": "3323232"
 }'
 ```
 
-# update message
+### update message
 ```
 curl --location --request PUT 'http://localhost:7783/message' \
 --header 'Content-Type: application/json' \
@@ -29,7 +33,7 @@ curl --location --request PUT 'http://localhost:7783/message' \
 }'
 ```
 
-# remove message
+### remove message
 ```
 curl --location --request DELETE 'http://localhost:7783/message' \
 --header 'Content-Type: application/json' \
