@@ -2,6 +2,7 @@
 ## step1
 create firebase realtime database
 save key.json -> serviceAccountKey.json
+update databaseURL in firebase.js
 
 ## step2
 ```
